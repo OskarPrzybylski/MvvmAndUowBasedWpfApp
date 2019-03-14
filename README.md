@@ -25,7 +25,7 @@ public class YourEntitiesRepository : GenericRepository<YourEntity>{
 3. Add DbSet in DatabaseContext.cs.
 
 ~~~~
-DbSet<YourEntity> yourentities {get; set;}
+DbSet<YourEntity> Yourentities {get; set;}
 ~~~~
 
 4. Add repository field and property in UnitOfWork.cs.
@@ -47,6 +47,6 @@ public YourEntitiesRepository YourEntitiesRepository
 
 5. Done! :)
 
-## How to add new View? (comming soon)
-## How to use binding in this project? (comming soon)
-## How to create commands in this project? (comming soon)
+## How to add new View? (coming soon)
+## How to use binding in this project? (coming soon)
+## How to create commands in this project? (coming soon)
