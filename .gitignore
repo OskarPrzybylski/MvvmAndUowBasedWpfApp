@@ -5,6 +5,7 @@
 *.suo
 *.user
 *.sln.docstates
+*.vs
 
 # Build results
 [Dd]ebug/
@@ -14,8 +15,8 @@
 x64/
 build/
 bld/
-[Bb]in/
-[Oo]bj/
+MvvmAndUowBasedWpfApp/[Bb]in/
+MvvmAndUowBasedWpfApp/[Oo]bj/
 
 # Roslyn cache directories
 *.ide/
