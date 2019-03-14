@@ -1,7 +1,7 @@
-## MvvmAndUowBasedWpfApp
-# Short description
+# MvvmAndUowBasedWpfApp
+## Short description
 Wpf application based on MVVM and Unit Of Work pattern. MahApps.Metro([link](https://github.com/MahApps/MahApps.Metro)) added to project in case of modern UI.
-# How to add new entity?
+## How to add new entity?
 1. Just add entity class in Entities folder.
 
 ~~~~
@@ -47,6 +47,6 @@ public YourEntitiesRepository YourEntitiesRepository
 
 5. Done! :)
 
-# How to add new View? (comming soon)
-# How to use binding in this project? (comming soon)
-# How to create commands in this project? (comming soon)
+## How to add new View? (comming soon)
+## How to use binding in this project? (comming soon)
+## How to create commands in this project? (comming soon)
