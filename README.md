@@ -109,5 +109,49 @@ public YourWindowViewModel YourWindow
 
 6. Done! :)
 
-## How to use binding in this project? (coming soon)
-## How to create commands in this project? (coming soon)
+## How to use binding in this project? 
+
+1. Add new field and property in YourWindowViewModel.cs
+~~~~
+private string password;
+public string Password
+                     {
+                        get
+                        {
+                                return password;
+                        }
+                        set
+                        {
+                                if (value != password)
+                                {
+                                        password = value;
+                                        RaisePropertyChanged("Password");
+                                }
+                        }
+                     }   
+~~~~
+
+2. Bind it in yourWindowWindow.xaml with this line:
+~~~~
+{Binding Password,Mode=TwoWay}
+~~~~
+
+3. Done! :)
+## How to create commands in this project? 
+
+1. Create new property in yourWindowViewModel.cs
+~~~~
+public RelayCommand YourCommand { get; private set; }
+~~~~
+
+2. Initialize your property in constructor with function:
+~~~~
+YourCommand = new RelayCommand(() => YourFunction());
+~~~~
+
+3. Bind it in YourWindowWindow.xaml with this line:
+~~~~
+Command='{Binding YourCommand}'
+~~~~
+
+4. Done! :)
